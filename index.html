@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0"> <!--鎵嬫満椤甸潰涓婄殑鎿嶄綔-->
+    <title>JOJO的奇妙冒险</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;    /*鍐呰竟妗嗗拰澶栬竟妗�*/
+    }
+    .shell{
+        height: 100vh;
+        overflow-x: hidden;/*瑁佸壀 div 鍏冪礌涓唴瀹圭殑宸�/鍙宠竟缂� - 濡傛灉婧㈠嚭鍏冪礌鐨勫唴瀹瑰尯鍩熺殑璇濓細*/
+        perspective: 3px;
+    }
+    .shell div{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: 30px;
+        letter-spacing: 2px;
+    }
+    .image{
+        transform: translateZ(-1px) scale(1.6);
+        background-size: cover;
+        height: 100vh;
+        z-index: -1;
+    }
+
+    .text{
+        height: 50vh;/*鐧借壊閭ｅ潡锛堝垎鍧楋級鐨勯珮搴�*/
+        background-color: #fff;
+    }
+    .text h1{
+        color: #000;
+    }
+    .heading{
+        z-index: -1;/*鍏冪礌鐨勪笂涓嬮伄鎸″叧绯�*/
+        transform: translateY(-30vh) translateZ(1px);/*绉诲姩*/
+        color: #fff;/*瀛椾綋棰滆壊*/
+        font-size: 30px;/*瀛椾綋澶у皬*/
+    }
+    .image{
+        width: 100%;
+    height: 100%;
+    /*保持原有尺寸比例，裁切长边*/
+    object-fit: cover;
+    }
+    .image{
+        position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;/*此时为方形*/
+    /*让图变圆润了*/
+    overflow: hidden; 
+    /* top: 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0.8); */
+    /*动画过渡*/
+    transition: 0.5s;
+    }
+    a{
+        color: #f6f5f5;
+    }
+</style>
+
+<body>
+    <div class="shell">
+        <div class="image" style="background-image: url('images/IMG_2343.PNG');"></div>
+        <div class="heading">
+            <h1>两个命运的囚犯<br>从名为觉悟的监狱窗口向外看去</h1>
+        </div>
+        <div class="text">
+            <h1>一个凝视漆黑的泥土，一个仰望黄金的星空</h1>
+        </div>
+
+        <div class="image" style="background-image: url('images/IMG_2328.PNG');"></div>
+        <div class="heading">
+            <h1>勇气</h1>
+        </div>
+        <div class="text">
+            <h1><q>为了做一名真正的绅士，即使明知必输无疑，也要有勇气接受挑战！</q><br>——乔纳森·乔斯达
+           
+                </h1>
+        </div>
+
+        <div class="image" style="background-image: url('images/IMG_2330.PNG');"></div>
+        <div class="heading">
+            <h1>担当</h1>
+        </div>
+        <div class="text">
+            <h1><q>我尽量避免战斗，但我从不逃避</q><br>——乔瑟夫·乔斯达</h1>
+        </div>
+
+        <div class="image" style="background-image: url('images/IMG_2549(20221130-203354).PNG');"></div>
+        <div class="heading">
+            <h1>友谊</h1>
+        </div>
+        <div class="text">
+            <h1><q>吾名花京院典明，为吾友阿布德尔雪耻，为身畔吾友波鲁纳雷夫之妹之安息——我要你以死谢罪！</q><br>——花京院典明</h1>
+        </div>
+
+        <div class="image" style="background-image: url('images/ZTTMbPlCMEvvy2Gvicnw3RCLWflJSAvvOZVpm4jzQHuch1566657594409compressflag.jpg');"></div>
+        <div class="heading">
+            <h1>信念</h1>
+        </div>
+        <div class="text">
+            <h1><q>所谓觉悟，就是在漆黑的荒野上开辟出一条理当前进的光明大道。</q><br>——乔鲁诺·乔巴纳</h1>
+        </div>
+
+        <div class="image" style="background-image: url('images/9be6c4cc52d0001b6b97a324c7c33200bf3c41f0.jpg');"></div>
+        <div class="heading">
+            <a href=file:///C:/Users/Administrator/Desktop/webb/index3.html>欢迎来到JOJO的奇妙冒险！</a>
+        </div>
+    </div>
+</body>
+
+</html>
+
+    
