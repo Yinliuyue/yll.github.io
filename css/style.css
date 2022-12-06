@@ -931,35 +931,35 @@ input:checked+.page .page_content{
 }
 
 .page:nth-child(6){
-    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2411(20221125-230714).JPG');
+    background-image: url('../images/IMG_2411(20221125-230714).JPG');
 }
 .page:nth-child(6) .page_content{
     background-color: rga(185,130,130);
 }
 
 .page:nth-child(9){
-    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2412(20221125-230801).JPG');
+    background-image: url('../images/IMG_2412(20221125-230801).JPG');
 }
 .page:nth-child(9) .page_content{
     background-color: rga(185,130,130);
 }
 
 .page:nth-child(12){
-    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2413(20221125-230815).JPG');
+    background-image: url('../images/IMG_2413(20221125-230815).JPG');
 }
 .page:nth-child(12) .page_content{
     background-color: rga(185,130,130);
 }
 
 .page:nth-child(15){
-    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2415(20221125-231015).JPG');
+    background-image: url('../images/IMG_2415(20221125-231015).JPG');
 }
 .page:nth-child(15) .page_content{
     background-color: rga(185,130,130);
 }
 
 .page:nth-child(18){
-    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2417(20221125-231034).JPG');
+    background-image: url('../images/IMG_2417(20221125-231034).JPG');
     /* background-size: 100px 50px; */
 }
 .page:nth-child(18) .page_content{
@@ -967,14 +967,14 @@ input:checked+.page .page_content{
 }
 
 .page:nth-child(21){
-    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2418(20221125-231054).JPG');
+    background-image: url('../images/IMG_2418(20221125-231054).JPG');
 }
 .page:nth-child(21) .page_content{
     background-color: rga(185,130,130);
 }
 
 .page:nth-child(24){
-    background-image: url('C:/Users/Administrator/Desktop/web-projects/site1/images/IMG_2420(20221125-231133).JPG');
+    background-image: url('../images/IMG_2420(20221125-231133).JPG');
 }
 .page:nth-child(24) .page_content{
     background-color: rga(185,130,130);
