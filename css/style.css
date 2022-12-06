@@ -924,7 +924,7 @@ input:checked+.page .page_content{
 .page:nth-child(3){
     background-image: url('../images/imagesIMG_2409(20221125-230650).JPG');
     
-    /* background-size: 780px 950px; */
+    
 }
 .page:nth-child(3) .page_content{
     background-color: rga(185,130,130);
